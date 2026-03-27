@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="tablemaster_settings">
+            <key name="default_theme" />
+            <key name="default_per_page" />
+            <key name="border_radius" />
+        </key>
+    </admin-texts>
+</wpml-config>

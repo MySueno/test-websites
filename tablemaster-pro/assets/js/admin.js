@@ -8,7 +8,7 @@
     var cfg        = window.tableMasterAdmin || {};
     var ajaxurl    = cfg.ajaxurl   || '';
     var nonce      = cfg.nonce     || '';
-    var tableId    = cfg.table_id  || 0;
+    var tableId    = parseInt(cfg.table_id, 10) || 0;
     var settings   = cfg.settings  || {};
     var presets    = cfg.presets   || {};
     var listUrl    = cfg.list_url  || '';
